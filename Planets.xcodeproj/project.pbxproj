@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BB52C101B7D5D6200490E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C0F1B7D5D6200490E6C /* main.m */; };
+		6BB52C131B7D5D6200490E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C121B7D5D6200490E6C /* AppDelegate.m */; };
+		6BB52C191B7D5D6200490E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BB52C171B7D5D6200490E6C /* Main.storyboard */; };
+		6BB52C1B1B7D5D6200490E6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB52C1A1B7D5D6200490E6C /* Images.xcassets */; };
+		6BB52C1E1B7D5D6200490E6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BB52C1C1B7D5D6200490E6C /* LaunchScreen.xib */; };
+		6BB52C2A1B7D5D6200490E6C /* PlanetsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C291B7D5D6200490E6C /* PlanetsTests.m */; };
+		6BB52C351B7D5E0D00490E6C /* PlanetRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C341B7D5E0D00490E6C /* PlanetRootViewController.m */; };
+		6BB52C381B7D5E5B00490E6C /* PlanetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C371B7D5E5B00490E6C /* PlanetDetailViewController.m */; };
+		6BB52C3B1B7D64FB00490E6C /* Planets.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C3A1B7D64FB00490E6C /* Planets.m */; };
+		6BB52C3E1B7D677E00490E6C /* PlanetsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BB52C3D1B7D677E00490E6C /* PlanetsData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BB52C241B7D5D6200490E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BB52C021B7D5D6200490E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BB52C091B7D5D6200490E6C;
+			remoteInfo = Planets;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BB52C0A1B7D5D6200490E6C /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB52C0E1B7D5D6200490E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB52C0F1B7D5D6200490E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6BB52C111B7D5D6200490E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6BB52C121B7D5D6200490E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6BB52C181B7D5D6200490E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BB52C1A1B7D5D6200490E6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BB52C1D1B7D5D6200490E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6BB52C231B7D5D6200490E6C /* PlanetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BB52C281B7D5D6200490E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BB52C291B7D5D6200490E6C /* PlanetsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanetsTests.m; sourceTree = "<group>"; };
+		6BB52C331B7D5E0D00490E6C /* PlanetRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetRootViewController.h; sourceTree = "<group>"; };
+		6BB52C341B7D5E0D00490E6C /* PlanetRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetRootViewController.m; sourceTree = "<group>"; };
+		6BB52C361B7D5E5B00490E6C /* PlanetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetDetailViewController.h; sourceTree = "<group>"; };
+		6BB52C371B7D5E5B00490E6C /* PlanetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetDetailViewController.m; sourceTree = "<group>"; };
+		6BB52C391B7D64FB00490E6C /* Planets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Planets.h; sourceTree = "<group>"; };
+		6BB52C3A1B7D64FB00490E6C /* Planets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Planets.m; sourceTree = "<group>"; };
+		6BB52C3C1B7D677E00490E6C /* PlanetsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlanetsData.h; sourceTree = "<group>"; };
+		6BB52C3D1B7D677E00490E6C /* PlanetsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlanetsData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BB52C071B7D5D6200490E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB52C201B7D5D6200490E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BB52C011B7D5D6200490E6C = {
+			isa = PBXGroup;
+			children = (
+				6BB52C0C1B7D5D6200490E6C /* Planets */,
+				6BB52C261B7D5D6200490E6C /* PlanetsTests */,
+				6BB52C0B1B7D5D6200490E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BB52C0B1B7D5D6200490E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BB52C0A1B7D5D6200490E6C /* Planets.app */,
+				6BB52C231B7D5D6200490E6C /* PlanetsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BB52C0C1B7D5D6200490E6C /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				6BB52C111B7D5D6200490E6C /* AppDelegate.h */,
+				6BB52C121B7D5D6200490E6C /* AppDelegate.m */,
+				6BB52C391B7D64FB00490E6C /* Planets.h */,
+				6BB52C3A1B7D64FB00490E6C /* Planets.m */,
+				6BB52C3C1B7D677E00490E6C /* PlanetsData.h */,
+				6BB52C3D1B7D677E00490E6C /* PlanetsData.m */,
+				6BB52C361B7D5E5B00490E6C /* PlanetDetailViewController.h */,
+				6BB52C371B7D5E5B00490E6C /* PlanetDetailViewController.m */,
+				6BB52C331B7D5E0D00490E6C /* PlanetRootViewController.h */,
+				6BB52C341B7D5E0D00490E6C /* PlanetRootViewController.m */,
+				6BB52C171B7D5D6200490E6C /* Main.storyboard */,
+				6BB52C1A1B7D5D6200490E6C /* Images.xcassets */,
+				6BB52C1C1B7D5D6200490E6C /* LaunchScreen.xib */,
+				6BB52C0D1B7D5D6200490E6C /* Supporting Files */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		6BB52C0D1B7D5D6200490E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB52C0E1B7D5D6200490E6C /* Info.plist */,
+				6BB52C0F1B7D5D6200490E6C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6BB52C261B7D5D6200490E6C /* PlanetsTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BB52C291B7D5D6200490E6C /* PlanetsTests.m */,
+				6BB52C271B7D5D6200490E6C /* Supporting Files */,
+			);
+			path = PlanetsTests;
+			sourceTree = "<group>";
+		};
+		6BB52C271B7D5D6200490E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BB52C281B7D5D6200490E6C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BB52C091B7D5D6200490E6C /* Planets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB52C2D1B7D5D6200490E6C /* Build configuration list for PBXNativeTarget "Planets" */;
+			buildPhases = (
+				6BB52C061B7D5D6200490E6C /* Sources */,
+				6BB52C071B7D5D6200490E6C /* Frameworks */,
+				6BB52C081B7D5D6200490E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Planets;
+			productName = Planets;
+			productReference = 6BB52C0A1B7D5D6200490E6C /* Planets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BB52C221B7D5D6200490E6C /* PlanetsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BB52C301B7D5D6200490E6C /* Build configuration list for PBXNativeTarget "PlanetsTests" */;
+			buildPhases = (
+				6BB52C1F1B7D5D6200490E6C /* Sources */,
+				6BB52C201B7D5D6200490E6C /* Frameworks */,
+				6BB52C211B7D5D6200490E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BB52C251B7D5D6200490E6C /* PBXTargetDependency */,
+			);
+			name = PlanetsTests;
+			productName = PlanetsTests;
+			productReference = 6BB52C231B7D5D6200490E6C /* PlanetsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BB52C021B7D5D6200490E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Justine Gartner";
+				TargetAttributes = {
+					6BB52C091B7D5D6200490E6C = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					6BB52C221B7D5D6200490E6C = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 6BB52C091B7D5D6200490E6C;
+					};
+				};
+			};
+			buildConfigurationList = 6BB52C051B7D5D6200490E6C /* Build configuration list for PBXProject "Planets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BB52C011B7D5D6200490E6C;
+			productRefGroup = 6BB52C0B1B7D5D6200490E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BB52C091B7D5D6200490E6C /* Planets */,
+				6BB52C221B7D5D6200490E6C /* PlanetsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BB52C081B7D5D6200490E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB52C191B7D5D6200490E6C /* Main.storyboard in Resources */,
+				6BB52C1E1B7D5D6200490E6C /* LaunchScreen.xib in Resources */,
+				6BB52C1B1B7D5D6200490E6C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB52C211B7D5D6200490E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BB52C061B7D5D6200490E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB52C131B7D5D6200490E6C /* AppDelegate.m in Sources */,
+				6BB52C381B7D5E5B00490E6C /* PlanetDetailViewController.m in Sources */,
+				6BB52C351B7D5E0D00490E6C /* PlanetRootViewController.m in Sources */,
+				6BB52C101B7D5D6200490E6C /* main.m in Sources */,
+				6BB52C3B1B7D64FB00490E6C /* Planets.m in Sources */,
+				6BB52C3E1B7D677E00490E6C /* PlanetsData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BB52C1F1B7D5D6200490E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BB52C2A1B7D5D6200490E6C /* PlanetsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BB52C251B7D5D6200490E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BB52C091B7D5D6200490E6C /* Planets */;
+			targetProxy = 6BB52C241B7D5D6200490E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BB52C171B7D5D6200490E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB52C181B7D5D6200490E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BB52C1C1B7D5D6200490E6C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BB52C1D1B7D5D6200490E6C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BB52C2B1B7D5D6200490E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6BB52C2C1B7D5D6200490E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BB52C2E1B7D5D6200490E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Planets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6BB52C2F1B7D5D6200490E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Planets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6BB52C311B7D5D6200490E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planets.app/Planets";
+			};
+			name = Debug;
+		};
+		6BB52C321B7D5D6200490E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlanetsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Planets.app/Planets";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BB52C051B7D5D6200490E6C /* Build configuration list for PBXProject "Planets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB52C2B1B7D5D6200490E6C /* Debug */,
+				6BB52C2C1B7D5D6200490E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BB52C2D1B7D5D6200490E6C /* Build configuration list for PBXNativeTarget "Planets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB52C2E1B7D5D6200490E6C /* Debug */,
+				6BB52C2F1B7D5D6200490E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6BB52C301B7D5D6200490E6C /* Build configuration list for PBXNativeTarget "PlanetsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BB52C311B7D5D6200490E6C /* Debug */,
+				6BB52C321B7D5D6200490E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BB52C021B7D5D6200490E6C /* Project object */;
+}

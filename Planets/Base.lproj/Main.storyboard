@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LUh-Me-D6u">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="CCW-Et-4wZ">
+            <objects>
+                <navigationController id="LUh-Me-D6u" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="NsU-Ja-xbh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YWd-A7-E2S" kind="relationship" relationship="rootViewController" id="rD9-pP-oQ2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Lw-Vx-Qgh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-409" y="406"/>
+        </scene>
+        <!--Planet Root View Controller-->
+        <scene sceneID="OEq-r4-gdh">
+            <objects>
+                <viewController id="YWd-A7-E2S" customClass="PlanetRootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="d2h-1A-1Zu"/>
+                        <viewControllerLayoutGuide type="bottom" id="d9X-pe-Rop"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OMj-jg-TMz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Think about space..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vBE-3G-rUm">
+                                <rect key="frame" x="0.0" y="149" width="600" height="17"/>
+                                <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H79-QM-f8k">
+                                <rect key="frame" x="277" y="225" width="47" height="29"/>
+                                <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                                <state key="normal" title="Saturn">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saturnButtonTapped:" destination="YWd-A7-E2S" eventType="touchUpInside" id="1Wb-xp-XAw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="H79-QM-f8k" firstAttribute="top" secondItem="vBE-3G-rUm" secondAttribute="bottom" constant="59" id="blq-AD-5MT"/>
+                            <constraint firstItem="vBE-3G-rUm" firstAttribute="top" secondItem="d2h-1A-1Zu" secondAttribute="bottom" constant="85" id="eUx-aF-shs"/>
+                            <constraint firstAttribute="centerX" secondItem="H79-QM-f8k" secondAttribute="centerX" id="jcS-yc-2uN"/>
+                            <constraint firstAttribute="trailing" secondItem="vBE-3G-rUm" secondAttribute="trailing" id="sKy-Hb-luo"/>
+                            <constraint firstItem="vBE-3G-rUm" firstAttribute="leading" secondItem="OMj-jg-TMz" secondAttribute="leading" id="tEV-ic-zY2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fNp-DA-Ydt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="om2-2G-yUa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="299" y="406"/>
+        </scene>
+        <!--Planet Detail View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController storyboardIdentifier="planetDetailViewController" id="vXZ-lx-hvc" customClass="PlanetDetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fKR-1w-Dkm">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view alpha="0.49999999999999961" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VnR-cp-7lM" userLabel="opaque">
+                                <rect key="frame" x="203" y="228" width="194" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="H72-hC-Gvm"/>
+                                    <constraint firstAttribute="height" constant="145" id="d9Q-GC-mGN"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="axis tilt" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmo-U5-22h">
+                                <rect key="frame" x="203" y="328" width="194" height="17"/>
+                                <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="orbital speed" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBF-54-ZOs">
+                                <rect key="frame" x="203" y="302" width="194" height="17"/>
+                                <fontDescription key="fontDescription" name="Marion-Regular" family="Marion" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAW-gf-MtC">
+                                <rect key="frame" x="203" y="264" width="194" height="20"/>
+                                <fontDescription key="fontDescription" name="Marion-Bold" family="Marion" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="fKR-1w-Dkm" secondAttribute="bottom" id="AE6-Eu-gOm"/>
+                            <constraint firstItem="VnR-cp-7lM" firstAttribute="trailing" secondItem="vAW-gf-MtC" secondAttribute="trailing" id="AkD-kG-jZY"/>
+                            <constraint firstAttribute="centerX" secondItem="VnR-cp-7lM" secondAttribute="centerX" id="HRE-SR-QYQ"/>
+                            <constraint firstItem="VnR-cp-7lM" firstAttribute="leading" secondItem="vAW-gf-MtC" secondAttribute="leading" id="MgY-EN-CGA"/>
+                            <constraint firstItem="VnR-cp-7lM" firstAttribute="top" secondItem="vAW-gf-MtC" secondAttribute="top" constant="-36" id="PVE-or-iky"/>
+                            <constraint firstItem="fKR-1w-Dkm" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="QrT-SD-Wkj"/>
+                            <constraint firstItem="nBF-54-ZOs" firstAttribute="top" secondItem="vAW-gf-MtC" secondAttribute="bottom" constant="18" id="RQy-1k-C3x"/>
+                            <constraint firstItem="nBF-54-ZOs" firstAttribute="trailing" secondItem="VnR-cp-7lM" secondAttribute="trailing" id="cfS-Rr-f9z"/>
+                            <constraint firstItem="VnR-cp-7lM" firstAttribute="trailing" secondItem="xmo-U5-22h" secondAttribute="trailing" id="dr2-kG-oe8"/>
+                            <constraint firstAttribute="centerY" secondItem="VnR-cp-7lM" secondAttribute="centerY" id="ekc-JI-U2j"/>
+                            <constraint firstItem="nBF-54-ZOs" firstAttribute="leading" secondItem="VnR-cp-7lM" secondAttribute="leading" id="giI-WX-VVk"/>
+                            <constraint firstAttribute="trailing" secondItem="fKR-1w-Dkm" secondAttribute="trailing" id="kDw-xZ-Qxi"/>
+                            <constraint firstItem="VnR-cp-7lM" firstAttribute="leading" secondItem="xmo-U5-22h" secondAttribute="leading" id="kgQ-tE-Fj3"/>
+                            <constraint firstItem="nBF-54-ZOs" firstAttribute="bottom" secondItem="xmo-U5-22h" secondAttribute="top" constant="-9" id="pIC-eI-a3a"/>
+                            <constraint firstItem="fKR-1w-Dkm" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="quO-lE-f8z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="axisTiltLabel" destination="xmo-U5-22h" id="lm6-LC-I0v"/>
+                        <outlet property="backgroundImageView" destination="fKR-1w-Dkm" id="Jb0-8v-xFu"/>
+                        <outlet property="orbitalSpeedLabel" destination="nBF-54-ZOs" id="ndo-p3-Yub"/>
+                        <outlet property="planetNameLabel" destination="vAW-gf-MtC" id="pWh-Kk-VLV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="406"/>
+        </scene>
+    </scenes>
+</document>
